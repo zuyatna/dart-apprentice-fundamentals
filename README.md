@@ -29,3 +29,6 @@ Enter the following folder you just created, and then run the project with the f
 ```
 dart run bin/hello.dart
 ```
+
+## 02-expressions-variables-constants
+In progress...
