@@ -17,6 +17,15 @@ After you've installed Dart, run the following command in a terminal to ensure t
 
 > Creating and Running the Project
 
-Go to the location where you want to create your project folder, and then run the following command in the terminal: `dart create hello` (this create a simple Dart project with some default code).
+Go to the location where you want to create your project folder, and then run the following command in the terminal:
 
-Enter the following folder you just created, and then run the project with the following command: `dart run bin/hello.dart`
+```
+dart create hello
+```
+(this create a simple Dart project with some default code).
+
+Enter the following folder you just created, and then run the project with the following command: 
+
+```
+dart run bin/hello.dart
+```
