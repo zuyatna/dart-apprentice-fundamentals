@@ -6,14 +6,18 @@ Dart is a modern and powerful programming language designed by Google. Dart does
 
 The Dart virtual machine allows lightning-fast development-time rebuilds, and its ahead-of-time compiler creates native applications for every major platform. As one pf the most versetile languages on the market today, you can use Dart to write anything from command-line apps and back-end servers to native applications for Android, iOS, Web, Mac, Windows, Linux and even embedded devices.
 
-## How To Use Dart?
+## How to Use Dart?
 > Installing the Dart SDK
 
 The Dart SDK is a collection of command-line tools that make it possible to develop Dart applications. Go to **[dart.dev/get-dart](https://dart.dev/get-dart)** and follow the directions on that site to download and install the Dart SDK on your platform.
 
 > Verifying the Dart SDK Installation
 
-After you've installed Dart, run the following command in a terminal to ensure that it's working: `dart --version`
+After you've installed Dart, run the following command in a terminal to ensure that it's working: 
+
+```
+dart --version
+```
 
 > Creating and Running the Project
 
