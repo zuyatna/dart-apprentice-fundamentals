@@ -1,3 +1,5 @@
+import 'dart:math';
+
 // This is a comment. It is not executed.
 
 // This is also a comment,
@@ -21,4 +23,26 @@ Back to the first. */
 
 void main() {
   print('Hello, Dart Apprentices reader');
+
+  // Arithmetic operations
+  print(2 + 6);
+  print(10 - 2);
+  print(2 * 4);
+  print(24 / 3);
+  print('');
+
+  print(22 / 7);
+
+  // Truncation division operator
+  print(22 ~/ 7);
+  print('');
+
+  // The euclidean modulo operation
+  print(28 % 10);
+  print('');
+
+  // Math function
+  print(sin(45 * pi / 180));
+  print(cos(135 * pi / 180));
+  print(sqrt(2));
 }
