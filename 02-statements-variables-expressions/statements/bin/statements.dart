@@ -50,4 +50,8 @@ void main() {
   // Exercise
   print(sqrt(2) / 2);
   print('it was equal to sin 45: ${sin(45 * pi / 180)}');
+  print('');
+
+  print(sin(45 * pi / 180));
+  print(1 / sqrt(2));
 }
