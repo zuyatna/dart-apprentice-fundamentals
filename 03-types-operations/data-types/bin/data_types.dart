@@ -41,4 +41,14 @@ void main() {
   print('');
 
   // Exercise
+  const age1 = 42;
+  const age2 = 21;
+
+  print(age1.runtimeType);
+  print(age2.runtimeType);
+  print('');
+
+  const averageAge = (age1 + age2) / 2;
+  print(averageAge);
+  print('');
 }
