@@ -30,4 +30,7 @@ void main() {
   print('');
 
   // Single Quotes vs. Double Quotes
+  print('flutter style guide does recommend using single quotes');
+  print('my cat\'s food');
+  print('');
 }
