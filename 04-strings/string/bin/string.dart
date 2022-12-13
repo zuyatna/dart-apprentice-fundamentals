@@ -33,4 +33,29 @@ void main() {
   print('flutter style guide does recommend using single quotes');
   print('my cat\'s food');
   print('');
+
+  // Concatenation
+  var message = 'Hello' ' my name is ';
+  const name = 'Suyatna';
+  message += name;
+  print(message);
+  print('');
+
+  // Interpolation
+  const myName = 'Suyatna';
+  const introduction = 'Hello my name is $myName';
+  print(introduction);
+
+  const oneThird = 1 / 3;
+  final sentence = 'One third is ${oneThird.toStringAsFixed(3)}';
+  print(sentence);
+  print('');
+
+  // Exercise
+  const firstName = 'Suyatna';
+  const lastName = 'Light';
+  const fullName = '$firstName $lastName';
+  const myDetails = 'Hello, my name is $fullName';
+  print(myDetails);
+  print('');
 }
