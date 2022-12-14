@@ -28,4 +28,33 @@ void main() {
   print('');
 
   // AND Operator
+  const isSunny = true;
+  const isFinished = true;
+  const willGoCycling = isSunny && isFinished;
+  print(willGoCycling);
+  print('');
+
+  // OR Operator
+  const willTravelToAustralia = true;
+  const canFindPhoto = false;
+  const canDrawPlatypus = willTravelToAustralia || canFindPhoto;
+  print(canDrawPlatypus);
+  print('');
+
+  // Operator Precedence
+  const andTrue = 1 < 2 && 4 > 3;
+  print(andTrue);
+  const andFalse = 1 < 2 && 3 > 4;
+  print(andFalse);
+  const orTrue = 1 < 2 || 3 > 4;
+  print(orTrue);
+  const orFalse = 1 == 2 && 3 == 4;
+  print(orFalse);
+  print('');
+
+  // String Equality
+  const guess = 'dog';
+  const guessEqualIsCat = guess == 'cat';
+  print(guessEqualIsCat);
+  print('');
 }
