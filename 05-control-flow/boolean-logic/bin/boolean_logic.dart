@@ -57,4 +57,19 @@ void main() {
   const guessEqualIsCat = guess == 'cat';
   print(guessEqualIsCat);
   print('');
+
+  // Exercises
+  const myAge = 14;
+  const isTeenager = (myAge >= 13 && myAge <= 19);
+  print(isTeenager);
+
+  const maryAge = 30;
+  const bothTeenagers =
+      (myAge >= 13 && myAge <= 19) && (maryAge >= 13 && maryAge <= 19);
+  print(bothTeenagers);
+
+  const reader = 'Suyatna';
+  const ray = 'Ray Wenderlich';
+  const rayIsReader = reader == ray;
+  print(rayIsReader);
 }
