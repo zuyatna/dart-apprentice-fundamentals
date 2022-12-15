@@ -30,4 +30,13 @@ void main() {
   print('');
 
   // Exercises
+  const myAge = 25;
+  if (myAge >= 13 && myAge <= 19) {
+    print('Teenager!');
+  } else {
+    print('Not Teenager.');
+  }
+
+  const answer = (myAge >= 13 && myAge <= 19) ? 'Teenager!' : 'Not Teenager.';
+  print(answer);
 }
