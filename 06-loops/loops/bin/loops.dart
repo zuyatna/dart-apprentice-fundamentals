@@ -27,4 +27,23 @@ void main() {
     sum2 += (1 + 3 - 2 * 4 + 8);
   } while (sum2 < 10);
   print('do-while loop sum: $sum2');
+  print('');
+
+  // Breaking Out of a Loop
+  sum = 1;
+  while (true) {
+    sum += 4;
+    print(sum);
+    if (sum > 10) {
+      break;
+    }
+  }
+  print('');
+
+  // Exercise
+  var counter = 0;
+  while (counter < 10) {
+    counter += 1;
+    print('counter is $counter');
+  }
 }
