@@ -46,4 +46,26 @@ void main() {
     counter += 1;
     print('counter is $counter');
   }
+  print('');
+
+  // For Loops
+  for (var i = 0; i < 5; i++) {
+    print(i);
+  }
+  print('');
+
+  // The Continue Keyword
+  for (var i = 0; i < 5; i++) {
+    if (i == 2) {
+      continue;
+    }
+    print(i);
+  }
+  print('');
+
+  // Exercise
+  for (var i = 1; i <= 10; i++) {
+    print(i);
+  }
+  print('');
 }
