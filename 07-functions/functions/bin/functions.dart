@@ -19,6 +19,10 @@ void main() {
   print(namingWithinTolerance(value: 9, min: 7, max: 11));
   print(namingWithinTolerance(value: 9, max: 11, min: 7));
   print(namingWithinTolerance(value: 9, max: 20));
+  print('');
+
+  print(add(4, 7));
+  printTripled(9);
 }
 
 String compliment(int number) {
@@ -48,3 +52,8 @@ bool withinTolerance(int value, [int min = 0, int max = 10]) {
 bool namingWithinTolerance({required int value, int min = 0, int max = 10}) {
   return min <= value && value <= max;
 }
+
+// Arrow function
+int add(int a, int b) => a + b;
+
+void printTripled(int number) => print(number * 3);
