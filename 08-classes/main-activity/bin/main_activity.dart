@@ -9,6 +9,7 @@ void main() {
   print(user.toJson());
 
   final myPassword = Password();
-  final text = myPassword.obfuscated;
+  myPassword.plainText = 'pass';
+  final text = myPassword.plainText;
   print(text);
 }
