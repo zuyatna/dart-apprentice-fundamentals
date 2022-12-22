@@ -17,7 +17,11 @@ void main() {
   print(sandra.toJson());
   print('');
 
-  final student = {'firstName': 'Salsa', 'lastName': 'Tiara', 'grade': 90};
-  final salsa = Student.fromJson(student);
-  print(salsa.toJson());
+  final bert =
+      Student.fromJson({'firstName': 'Bert', 'lastName': 'Angel', 'grade': 95});
+  print(bert.toJson());
+
+  final ernie = Student.fromJson(
+      {'firstName': 'Ernie', 'lastName': 'Lockwood', 'grade': 85});
+  print(ernie.toJson());
 }
