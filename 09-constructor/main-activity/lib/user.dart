@@ -10,4 +10,10 @@ class User {
   String toJson() {
     return '{"id":$_id, "name":"$_name"}';
   }
+
+  factory User.fromJson(Map<String, Object> json) {
+    final userId = json['id'] as int;
+    final username = json['name'] as String;
+    return User(id: userId, name: username);
+  }
 }

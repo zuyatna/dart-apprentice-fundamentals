@@ -10,4 +10,8 @@ void main() {
 
   const myPhoneNumber = PhoneNumber(value: '(+1)457829');
   print(myPhoneNumber.toJson());
+
+  final map = {'id': 10, 'name': 'Sandra'};
+  final sandra = User.fromJson(map);
+  print(sandra.toJson());
 }
