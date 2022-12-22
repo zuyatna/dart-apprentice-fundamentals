@@ -1,4 +1,5 @@
 import 'package:main_activity/phone_number.dart';
+import 'package:main_activity/student.dart';
 import 'package:main_activity/user.dart';
 
 void main() {
@@ -14,4 +15,9 @@ void main() {
   final map = {'id': 10, 'name': 'Sandra'};
   final sandra = User.fromJson(map);
   print(sandra.toJson());
+  print('');
+
+  final student = {'firstName': 'Salsa', 'lastName': 'Tiara', 'grade': 90};
+  final salsa = Student.fromJson(student);
+  print(salsa.toJson());
 }
