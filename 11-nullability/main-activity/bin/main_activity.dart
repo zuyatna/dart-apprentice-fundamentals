@@ -26,6 +26,26 @@ void main() {
 
   profession = 'basketball player';
   print(profession);
+  print('');
+
+  // # Null-Aware Operators
+  // if-Null Operator (??)
+  String? message;
+  final text = message ?? 'Error';
+  print(text);
+  // same as..
+  // String text;
+  // if (message == null) {
+  // text = 'Error';
+  // } else {
+  // text = message;
+  // }
+
+  // Null-Aware Assignment Operator (??=)
+  double? fontSize;
+  // fontSize = fontSize ?? 20.0;
+  fontSize ??= 20.0;
+  print(fontSize);
 }
 
 bool isPositive(int anInteger) {
